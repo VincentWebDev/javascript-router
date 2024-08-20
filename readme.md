@@ -6,17 +6,5 @@ I had to take my time learning this with tutorials from other developers.
 
 ## Credits:
 
-<a
-    href="https://github.com/mitchwadair/vanilla-spa-router"
-    target="_blank"
-    class="link-info"
-    >mitchwadair</a
-
-> <a
-
-    href="https://github.com/thedevdrawer/spa-routing"
-    target="_blank"
-    class="link-info"
-    >thedevdrawer</a
-
->
+[mitchwadair](https://github.com/mitchwadair/vanilla-spa-router)
+[thedevdrawer](https://github.com/thedevdrawer/spa-routing)
