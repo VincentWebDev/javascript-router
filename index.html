@@ -30,12 +30,20 @@
       <div class="container r">
         <div class="row">
           <div class="col-2 separator">
-            <h5>URL Routers</h5>
+            <h5>URL Router</h5>
             <nav id="main-nav" class="sidebar row">
               <a href="/" class="link-info">Home</a>
               <a href="/about" class="link-info">About</a>
               <a href="/languages" class="link-info">Top Languages</a>
               <a href="/doesntexist" class="link-info">Doesn't Exist</a>
+            </nav>
+
+            <h5>Hash Router</h5>
+            <nav id="main-nav" class="sidebar row">
+              <a href="/" class="link-info">Home</a>
+              <a href="#about" class="link-info">About</a>
+              <a href="#languages" class="link-info">Top Languages</a>
+              <a href="#doesntexist" class="link-info">Doesn't Exist</a>
             </nav>
 
             <div class="d-flex justify-content-start social">
@@ -46,7 +54,10 @@
                   alt="personal website"
                 ></i>
               </a>
-              <a href="https://github.com/VincentWebDev" target="_blank">
+              <a
+                href="https://github.com/VincentWebDev/javascript-router"
+                target="_blank"
+              >
                 <i
                   class="bi bi-github"
                   style="font-size: 2rem; color: #de21a1"
@@ -73,7 +84,8 @@
       </div>
     </div>
 
-    <script src="router.js"></script>
+    <script src="url-router.js"></script>
+    <script src="hash-router.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

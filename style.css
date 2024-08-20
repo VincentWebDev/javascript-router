@@ -10,6 +10,9 @@ h1 {
   background: #ffde25;
 }
 
+nav {
+  margin-bottom: 20px;
+}
 .separator {
   border-right: 1px solid lightgrey;
   margin: 0 20px 0 0;
@@ -32,4 +35,14 @@ a:hover {
 }
 a:active {
   text-decoration: none;
+}
+
+#code {
+  background-color: #e6e6e6;
+  padding: 10px 0 10px 15px;
+  border-radius: 5px;
+}
+
+#code:first-of-type strong {
+  background-color: rgb(211, 211, 211);
 }

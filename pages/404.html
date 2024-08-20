@@ -1,2 +1,24 @@
 <h2>404 Not Found</h2>
 <p>The requested page or route doesn't exist.</p>
+
+<p>
+  If you're rendering this JavaScript router code locally or with VSCode live
+  server, and you refresh the brower on a URL route that is not the index page,
+  you will receive a 404 error (Cannot GET).
+</p>
+
+<p>
+  I'm hosting the app on Netlify's free account. I created a
+  <strong><code>netlify.toml</code></strong> file to handle 404 errors.
+</p>
+
+Below is the Netlify code to redirect all 404 url router errors to
+<strong><code>index.html</code></strong>. This code overwrites Netlify's own 404 reponse. Normally, you would need to write similar code in a <strong><code>.htaccess</code></strong> file.
+</p>
+<div id="code">
+  <p>
+  <code
+    >[[redirects]]<br />from = "/*"<br />to = "/index.html"<br />status =
+    404</code
+  >
+</div>
