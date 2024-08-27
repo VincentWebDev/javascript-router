@@ -6,6 +6,8 @@ I had to take my time learning this with tutorials from other developers. The ap
 
 You can view the app [here](https://javascript-router-tutorial.netlify.app/)
 
+View the [pushState vs popstate](https://javascript-router-tutorial.netlify.app/pages/pushstate-vs-popstate) examples.
+
 ## Credits:
 
 [mitchwadair](https://github.com/mitchwadair/vanilla-spa-router)  
