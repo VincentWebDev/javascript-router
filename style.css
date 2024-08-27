@@ -46,3 +46,89 @@ a:active {
 #code:first-of-type strong {
   background-color: rgb(211, 211, 211);
 }
+
+#group-1 {
+  height: 400px;
+  width: 500px;
+  background-color: hsl(210, 14%, 83%);
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+#group-2 {
+  height: 400px;
+  width: 500px;
+  background-color: hsl(325, 14%, 93%);
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+#group-3 {
+  height: 300px;
+  width: 500px;
+  background-color: hsl(125, 14%, 93%);
+  margin: 0 auto 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border-radius: 2px;
+}
+
+#square-1 {
+  background-color: hsl(120, 93%, 59%);
+}
+
+#square-2 {
+  background-color: hsl(55, 67%, 60%);
+}
+
+#square-3 {
+  background-color: hsl(180, 65%, 61%);
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#circle-1 {
+  background-color: palegreen;
+}
+
+#circle-2 {
+  background-color: palegoldenrod;
+}
+
+#circle-3 {
+  background-color: paleturquoise;
+}
+
+.clicked {
+  height: 150px;
+  width: 150px;
+}
+
+.text {
+  max-width: 600px;
+}
+
+#popstate-alert {
+  background-color: lightsalmon;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 250px;
+  max-height: 50px;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+#replace-state {
+  width: 240px;
+  height: 120px;
+  background: palevioletred;
+  border-radius: 120px / 60px;
+}
