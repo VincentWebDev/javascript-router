@@ -68,8 +68,8 @@ const hashRouteLocation = async () => {
   }
 };
 
-//The pushState() method is fired after a link is clicked, which results in the popstate event
-//the popstate event takes a
+//popstate event fires when user clicks on the browser back or forward buttons
 window.onpopstate = hashRouteLocation;
 
+//renders the initial page and html content
 hashRouteLocation();

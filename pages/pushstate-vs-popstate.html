@@ -4,9 +4,11 @@
   <head>
     <title>pushState vs popstate</title>
     <link rel="icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="author" content="Vincent Croos" />
+
     <meta
       name="description"
-      content="Example of how to create a vanilla Javascript router with a single page application (SPA)"
+      content="Example of how to create a vanilla Javascript router with a single page application (SPA) by Vincent Croos"
     />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -39,6 +41,9 @@
           pushState and replaceState are non-existent. If you refresh the
           browser, you'll receive an error.
         </p>
+        <div class="d-flex flex-column align-items-center popstate-alert">
+          <strong>popstate event was fired</strong>
+        </div>
       </div>
       <div id="group-1">
         <h2>
@@ -103,7 +108,7 @@
           </div>
         </div>
       </div>
-      <div class="d-flex flex-column align-items-center" id="popstate-alert">
+      <div class="d-flex flex-column align-items-center popstate-alert">
         <strong>popstate event was fired</strong>
       </div>
       <div id="group-3">

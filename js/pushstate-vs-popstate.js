@@ -53,10 +53,16 @@ function handleShapeUrl(shape) {
 //popstate listens for changes to the browser back and forward buttons
 window.onpopstate = () => {
   //triggers an alert when the popstate event is fired
-  document.getElementById("popstate-alert").style.visibility = "visible";
-  setTimeout(() => {
-    document.getElementById("popstate-alert").style.visibility = "hidden";
-  }, "1500");
+
+  for (const popstateClass of document.getElementsByClassName(
+    "popstate-alert"
+  )) {
+    popstateClass.style.visibility = "visible";
+
+    setTimeout(() => {
+      popstateClass.style.visibility = "hidden";
+    }, "1500");
+  }
 
   //get the current URL path
   const updatedPath = window.location.href;

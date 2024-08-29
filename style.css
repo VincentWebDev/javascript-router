@@ -116,7 +116,7 @@ a:active {
   max-width: 600px;
 }
 
-#popstate-alert {
+.popstate-alert {
   background-color: lightsalmon;
   margin: 0 auto;
   padding: 10px;
